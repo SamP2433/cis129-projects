@@ -1,6 +1,6 @@
 # Display My Coffe and Muffic Shop
 print('***************************************')
-print('My Coffee and Muffin Shop')
+print("Welcome to Sam's Coffee Shop")
 coffees = int(input('Number of coffees bought? ')) # Getting input of number of coffees from user.
 muffins = int(input('Number of muffins bought? ')) # Getting input of number of muffins from user.
 donuts = int(input('Number of dounts bought? ')) # Getting input of number of dounts from user.
@@ -10,7 +10,7 @@ print('***************************************')
 print(' ')
 # Display The receipt of the total cost, cost per item, and tax.
 print('***************************************')
-print('My Coffee and Muffin Shop Receipt')
+print("Sam's Coffee Shop Receipt")
 print(str(coffees) + " Coffee at $5 each: $" + f"{coffees * 5:.2f}") # Total Cost of coffees, then formating the total to receive two decimal places.
 print(str(muffins) + " Muffins at $4 each: $" + f"{muffins * 4:.2f}") # Total Cost of muffins, then formating the total to receive two decimal places.
 print(str(donuts) + " Dounts at $2 each: $" + f"{muffins * 2:.2f}") # Total Cost of donuts, then formating the total to receive two decimal places.
